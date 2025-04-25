@@ -1,5 +1,4 @@
 import React from "react";
-import { FaPlus } from "react-icons/fa";
 
 const LinkCard: React.FC<{
   title: string;
