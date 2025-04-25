@@ -6,7 +6,7 @@ import { FaPlus } from "react-icons/fa";
 // Import images from src/assets
 import FacebookImage from "@/assets/Facebook.png";
 import InstagramImage from "@/assets/Instagram.png";
-import TwitterImage from "@/assets/twitter.png";
+// import TwitterImage from "@/assets/twitter.png";
 import TiktokImage from "@/assets/TikTok.png";
 import WhatsappImage from "@/assets/Whatsapp.png";
 import LinkedinImage from "@/assets/Linkedin.png";
@@ -66,10 +66,10 @@ const BiogramProfile: React.FC = () => {
                   imageSrc={InstagramImage}
                   backgroundColor="bg-gradient-to-r from-purple-500 via-pink-500 to-orange-500"
                 />
-                <SocialIcon
+                {/* <SocialIcon
                   imageSrc={TwitterImage}
                   backgroundColor="bg-blue-400"
-                />
+                /> */}
                 <SocialIcon imageSrc={TiktokImage} backgroundColor="bg-black" />
               </CategorySection>
 
