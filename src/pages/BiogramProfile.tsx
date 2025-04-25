@@ -104,13 +104,13 @@ const BiogramProfile: React.FC = () => {
               </CategorySection>
 
               {/* Payment Section */}
-              <CategorySection title="Payment" />
+              {/* <CategorySection title="Payment"  /> */}
 
               {/* Gaming Section */}
-              <CategorySection title="Gaming" />
+              {/* <CategorySection title="Gaming" /> */}
 
               {/* Lifestyle Section */}
-              <CategorySection title="Lifestyle" />
+              {/* <CategorySection title="Lifestyle" /> */}
             </div>
           </div>
 
